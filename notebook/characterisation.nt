@@ -1,0 +1,71 @@
+<http://emmo.info/BattINFO/characterisation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://emmo.info/BattINFO/characterisation> <http://www.w3.org/2002/07/owl#versionIRI> <http://emmo.info/BattINFO/0.1.0/characterisation> .
+<http://emmo.info/BattINFO/characterisation> <http://www.w3.org/2002/07/owl#imports> <http://emmo.info/electrochemistry/0.1.0/electrochemistry> .
+<http://emmo.info/BattINFO/characterisation> <http://purl.org/dc/terms/abstract> "Domain ontology for characterisation.\n\nCurrently focusing on diffraction.\n\nReleased under the Creative Commons license Attribution 4.0 International (CC BY 4.0)."@en .
+<http://emmo.info/BattINFO/characterisation> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" .
+<http://emmo.info/BattINFO/characterisation> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<http://emmo.info/BattINFO#EMMO_156ba8ab_6ba8_4270_8056_baad043cf566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_156ba8ab_6ba8_4270_8056_baad043cf566> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_7dea2572_ab42_45bd_9fd7_92448cec762a> .
+<http://emmo.info/BattINFO#EMMO_156ba8ab_6ba8_4270_8056_baad043cf566> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A system for measuring diffraction patterns and processing the result."@en .
+<http://emmo.info/BattINFO#EMMO_156ba8ab_6ba8_4270_8056_baad043cf566> <http://www.w3.org/2004/02/skos/core#prefLabel> "DiffractionMeasuringSystem"@en .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Measuring instrument [VIM 3.1] for electric current that controls the potential difference between a working electrode and a reference electrode and measures the electric current between a working electrode and an auxiliary electrode.\n\n--J. M. Pingarr\u00F3n et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"@en .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://emmo.info/emmo#EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d> "https://en.wikipedia.org/wiki/Potentiostat"@en .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://www.w3.org/2000/01/rdf-schema#comment> "Most potentiostats use low current (e.g. nA - 2 A). For higher currents, it can be combined with a current booster."@en .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://www.w3.org/2000/01/rdf-schema#comment> "Potentiostat can be used in a two or three electrode setup."@en .
+<http://emmo.info/BattINFO#EMMO_1fc333a8_63ba_48f7_ad4a_557858015354> <http://www.w3.org/2004/02/skos/core#prefLabel> "Potentiostat"@en .
+<http://emmo.info/BattINFO#EMMO_2744ed81_a5e0_461b_b22d_bc04bfc4638c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_2744ed81_a5e0_461b_b22d_bc04bfc4638c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_2744ed81_a5e0_461b_b22d_bc04bfc4638c> <http://www.w3.org/2004/02/skos/core#prefLabel> "CurrentBooster"@en .
+<http://emmo.info/BattINFO#EMMO_348fbd70_b98d_40d7_9971_2e07e5b9a6a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_348fbd70_b98d_40d7_9971_2e07e5b9a6a0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_0f6f0120_c079_4d95_bb11_4ddee05e530e> .
+<http://emmo.info/BattINFO#EMMO_348fbd70_b98d_40d7_9971_2e07e5b9a6a0> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A result from a Diffraction Measurement."@en .
+<http://emmo.info/BattINFO#EMMO_348fbd70_b98d_40d7_9971_2e07e5b9a6a0> <http://www.w3.org/2004/02/skos/core#prefLabel> "DiffractionMeasurementResult"@en .
+<http://emmo.info/BattINFO#EMMO_51365816_c56b_4020_85f2_381ba18afe0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_51365816_c56b_4020_85f2_381ba18afe0c> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_51365816_c56b_4020_85f2_381ba18afe0c> <http://www.w3.org/2004/02/skos/core#prefLabel> "FrequencyResponseAnalyser"@en .
+<http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_6f2c88c9_5c04_4953_a298_032cc3ab9b77> .
+<http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> <http://www.w3.org/2004/02/skos/core#prefLabel> "MeasuringCell"@en .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://emmo.info/emmo#EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25> "https://dbpedia.org/page/Potentiometer_(measuring_instrument)"@en .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "An instrument for measuring voltage or 'potential difference' by comparison of an unknown voltage with a known reference voltage."@en .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://emmo.info/emmo#EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d> "https://en.wikipedia.org/wiki/Potentiometer_(measuring_instrument)"@en .
+<http://emmo.info/BattINFO#EMMO_8909f008_8b23_42f1_97a9_0447f3ae5201> <http://www.w3.org/2004/02/skos/core#prefLabel> "Potentiometer"@en .
+<http://emmo.info/BattINFO#EMMO_9cbeffb5_745d_4873_9e9b_acdd7c8fc336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_9cbeffb5_745d_4873_9e9b_acdd7c8fc336> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_463bcfda_867b_41d9_a967_211d4d437cfb> .
+<http://emmo.info/BattINFO#EMMO_9cbeffb5_745d_4873_9e9b_acdd7c8fc336> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A measurement of the wave diffraction property of some sample."@en .
+<http://emmo.info/BattINFO#EMMO_9cbeffb5_745d_4873_9e9b_acdd7c8fc336> <http://www.w3.org/2004/02/skos/core#prefLabel> "DiffractionMeasurement"@en .
+<http://emmo.info/BattINFO#EMMO_a503ef5c_3eb0_49a3_b586_eaad85c9ab46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_a503ef5c_3eb0_49a3_b586_eaad85c9ab46> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929> .
+<http://emmo.info/BattINFO#EMMO_a503ef5c_3eb0_49a3_b586_eaad85c9ab46> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "An instrument that measures the diffraction of an electromagnetic wave (originating from a source) through a sample as seen by a detector."@en .
+<http://emmo.info/BattINFO#EMMO_a503ef5c_3eb0_49a3_b586_eaad85c9ab46> <http://www.w3.org/2004/02/skos/core#prefLabel> "DiffractionInstrument"@en .
+<http://emmo.info/BattINFO#EMMO_b0aa5bd5_f822_4784_946d_6728f35d1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_b0aa5bd5_f822_4784_946d_6728f35d1975> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> .
+<http://emmo.info/BattINFO#EMMO_b0aa5bd5_f822_4784_946d_6728f35d1975> <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenMeasuringCell"@en .
+<http://emmo.info/BattINFO#EMMO_b217fab5_fe3b_4607_864b_32cb79f6a0a0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_b217fab5_fe3b_4607_864b_32cb79f6a0a0> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_5c69b4f4_74e6_454b_a0fa_408efe7455dd> .
+<http://emmo.info/BattINFO#EMMO_b217fab5_fe3b_4607_864b_32cb79f6a0a0> <http://www.w3.org/2004/02/skos/core#prefLabel> "ClosedMeasuringCell"@en .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Measuring instrument [VIM 3.1] to obtain the electrical charge passed in an experiment, or to produce a known amount of substance in a titration."@en .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://www.w3.org/2000/01/rdf-schema#comment> "Modern instruments for measuring trace water by Karl Fischer titration use the passage of a measured charge to produce iodine from iodide solution. They are known as Karl Fischer coulometers."@en .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://www.w3.org/2000/01/rdf-schema#comment> "The silver coulometer is a primary reference measurement procedure [VIM 2.8] for charge and current. By weighing the mass of silver deposited in a known time at constant current, the charge and current are calculated from Faraday\u2019s laws of electrolysis."@en .
+<http://emmo.info/BattINFO#EMMO_bb5b1538_d1a9_4858_8248_3112507dcba5> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coulometer"@en .
+<http://emmo.info/BattINFO#EMMO_c6a93bd1_7f29_4bea_9509_6cb70a198425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_c6a93bd1_7f29_4bea_9509_6cb70a198425> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_c6a93bd1_7f29_4bea_9509_6cb70a198425> <http://www.w3.org/2000/01/rdf-schema#comment> "Can be used only in a 2 electrode full cell configuration."@en .
+<http://emmo.info/BattINFO#EMMO_c6a93bd1_7f29_4bea_9509_6cb70a198425> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryCycler"@en .
+<http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#EMMO_f2d5d3ad_2e00_417f_8849_686f3988d929> .
+<http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "A MeasuringInstrument used in the battery domain."@en .
+<http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryMeasuringInstrument"@en .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_db9c17b5_b932_477b_b520_638c4863f2bf> .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Instrument which controls the electric current between the working electrode and the auxiliary electrode.\n\n--J. M. Pingarr\u00F3n et al., Terminology of electrochemical methods of analysis (IUPAC Recommendations 2019), Pure and Applied Chemistry, 4, 92, 2020, 641-694. https://doi.org/10.1515/pac-2018-0109"@en .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://emmo.info/emmo#EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d> "https://en.wikipedia.org/wiki/Galvanostat"@en .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://www.w3.org/2004/02/skos/core#altLabel> "Amperostat"@en .
+<http://emmo.info/BattINFO#EMMO_f90d3d69_cd5a_4eab_b5ec_f6b6a0ccc893> <http://www.w3.org/2004/02/skos/core#prefLabel> "Galvanostat"@en .

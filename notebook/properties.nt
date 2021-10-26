@@ -1,0 +1,40 @@
+<http://emmo.info/BattINFO/properties> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://emmo.info/BattINFO/properties> <http://www.w3.org/2002/07/owl#versionIRI> <http://emmo.info/BattINFO/0.1.0/properties> .
+<http://emmo.info/BattINFO/properties> <http://www.w3.org/2002/07/owl#imports> <http://emmo.info/BattINFO/0.1.0/characterisation> .
+<http://emmo.info/BattINFO/properties> <http://purl.org/dc/terms/abstract> "Common properties for batteries and their interfaces.\n\nReleased under the Creative Commons license Attribution 4.0 International (CC BY 4.0)."@en .
+<http://emmo.info/BattINFO/properties> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/legalcode" .
+<http://emmo.info/BattINFO/properties> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<http://emmo.info/emmo#EMMO_de178b12_5d35_4bca_8efa_a4193162571d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://emmo.info/BattINFO#EMMO_230809da_bc18_42ec_ac94_4ca6a86292d1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_230809da_bc18_42ec_ac94_4ca6a86292d1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_aecc6094_c6a5_4a36_a825_8a497a2ae112> .
+<http://emmo.info/BattINFO#EMMO_230809da_bc18_42ec_ac94_4ca6a86292d1> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Physical quantities defined within the domain of batteries."@en .
+<http://emmo.info/BattINFO#EMMO_230809da_bc18_42ec_ac94_4ca6a86292d1> <http://www.w3.org/2004/02/skos/core#prefLabel> "BatteryQuantity"@en .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_791c1915_a791_4450_acd8_7f94764743b5> .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_aecc6094_c6a5_4a36_a825_8a497a2ae112> .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Theoretical amount of charge a cell can store. Minimum of the theoretical capacity of the positive electrode and negative electrode."@en .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://emmo.info/emmo#EMMO_de178b12_5d35_4bca_8efa_a4193162571d> "T+1 L0 M0 I+1 \u03980 N0 J0" .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://www.w3.org/2004/02/skos/core#altLabel> "TheoreticalCapacity"@en .
+<http://emmo.info/BattINFO#EMMO_2b09f961_3374_42e4_8836_bffc6bf522fa> <http://www.w3.org/2004/02/skos/core#prefLabel> "TheoreticalChargeCapacity"@en .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_1e3dc60d_dd6b_47d6_8161_70004fc5ee30> .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_aecc6094_c6a5_4a36_a825_8a497a2ae112> .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "TheoreticalCapacity divided by the mass of the cell."@en .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://emmo.info/emmo#EMMO_de178b12_5d35_4bca_8efa_a4193162571d> "T+1 L0 M-1 I+1 \u03980 N0 J0" .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://www.w3.org/2004/02/skos/core#altLabel> "TheoreticalSpecificChargeCapacity"@en .
+<http://emmo.info/BattINFO#EMMO_8632dee1_0adf_4a47_8400_820b48b86732> <http://www.w3.org/2004/02/skos/core#prefLabel> "TheoreticalSpecificCapacity"@en .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_4f1ed4ee_06ba_44a4_8ece_1ee56bf12afe> .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/electrochemistry#EMMO_aecc6094_c6a5_4a36_a825_8a497a2ae112> .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Theoretical amount of energy that can be stored in a battery cell. Minimum of the theoretical energy of the positive electrode and negative electrode. Product of the Theoretical Capacity and the Theoretical Open-Circuit Voltage."@en .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://emmo.info/emmo#EMMO_de178b12_5d35_4bca_8efa_a4193162571d> "T-2 L+2 M+1 I0 \u03980 N0 J0" .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://www.w3.org/2004/02/skos/core#altLabel> "TheoreticalEnergy"@en .
+<http://emmo.info/BattINFO#EMMO_9ea6a862_131f_4154_be47_e7417f2fb924> <http://www.w3.org/2004/02/skos/core#prefLabel> "TheoreticalStoredEnergy"@en .
+<http://emmo.info/BattINFO#EMMO_a9c9789c_6a98_4e58_98b2_21a87989b5a8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://emmo.info/BattINFO#EMMO_a9c9789c_6a98_4e58_98b2_21a87989b5a8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/BattINFO#EMMO_230809da_bc18_42ec_ac94_4ca6a86292d1> .
+<http://emmo.info/BattINFO#EMMO_a9c9789c_6a98_4e58_98b2_21a87989b5a8> <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Energy per unit mass."@en .
+<http://emmo.info/BattINFO#EMMO_a9c9789c_6a98_4e58_98b2_21a87989b5a8> <http://emmo.info/emmo#EMMO_de178b12_5d35_4bca_8efa_a4193162571d> "T-2 L+2 M0 I0 \u03980 N0 J0" .
+<http://emmo.info/BattINFO#EMMO_a9c9789c_6a98_4e58_98b2_21a87989b5a8> <http://www.w3.org/2004/02/skos/core#prefLabel> "SpecificEnergy"@en .
