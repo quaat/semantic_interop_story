@@ -51,4 +51,4 @@ class SKOS:
 
 class EMMO:
     elucidation= '<http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>'                  
-    
+    etymology='<http://emmo.info/emmo#EMMO_705f27ae_954c_4f13_98aa_18473fc52b25>'
